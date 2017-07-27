@@ -1,1 +1,1 @@
-# week-4-game
+# Game of Thrones Trivia Game using JQuery and Javascript
