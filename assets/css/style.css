@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  cursor: url("../images/sword_cursor.png"), auto !important;
+}
+body{
+  background-image: url("../images/background.png");
+}
+
+.GOT{
+  opacity: 0.9;
+}
+
+.title{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/*#gif {
+  opacity:2;
+}

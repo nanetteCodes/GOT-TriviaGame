@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GOT Trivia Game</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <!--header-->
+  <div class="title img-responsive">     
+    <a href="https://fontmeme.com/game-of-thrones-font/"><img src="https://fontmeme.com/permalink/170726/ddd17823b117cf4c3ebdfcc813890f75.png" alt="game-of-thrones-font" border="0"></a>
+  </div>
+  <div class="container"> 
+    <div class= "jumbotron GOT">      
+      
+      <br><br>
+      <!--button to start game-->
+      <button class= "btn btn-warning" id="startBtn"><h2>Start</h2></button>
+           
+      <!-- questions-->
+      
+      <div id=timeLeft></div>
+      
+      <div id=currentQuestion></div>
+      
+      <div class='question'></div>
+      
+      <div class='answerList'></div>
+        
+      <!-- Answer Page -->
+      <div id=message></div>
+      
+      <div id=correctedAnswer></div>
+      
+      <div id=gif></div>
+
+      <!-- Scoreboard -->
+      <div id=finalMessage></div>
+      
+      <div id=correctAnswers></div>
+      
+      <div id=incorrectAnswers></div>
+      
+      <div id='startOverBtn'></div>
+    
+    </div>
+  </div>
+  
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!--Javascript-->
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
