@@ -90,11 +90,11 @@ var triviaQuestions = [{
     answered = true;
 
   //sets up new questions & answerList
-  $('#currentQuestion').html('<h3>' +'Question #'+(currentQuestion+1)+'/'+triviaQuestions.length + '</h3>');
+  $('#currentQuestion').html('<h2 style="color:brown;">' +'Question #'+(currentQuestion+1)+'/'+triviaQuestions.length + '</h2>');
   $('.question').html('<h2>' + triviaQuestions[currentQuestion].question + '</h2>');
   for(var i = 0; i < 4; i++){
     var choices = $('<div>');
-    choices.html('<h3>' + triviaQuestions[currentQuestion].answerList[i] + '</h3>');
+    choices.html('<h3 style="color:saddlebrown;">' + triviaQuestions[currentQuestion].answerList[i] + '</h3>');
     choices.attr({'data-index': i });
     choices.addClass('thisChoice');
     $('.answerList').append(choices);
@@ -166,5 +166,6 @@ function scoreboard(){
   $('#startOverBtn').html('Try Again');
 }
 
-var audio = new Audio("GameOfThrones.mp3");
-audio.play();
+var myAudio = new Audio("GameOfThrones.mp3");
+myAudio.loop = true;
+myAudio.play();
