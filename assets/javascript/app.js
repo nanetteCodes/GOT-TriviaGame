@@ -13,15 +13,15 @@ var triviaQuestions = [{
   answer: 2}, //Tyrion Lannister
 
   {question:'Who said, "Some day I\'m gonna put a sword through your eye and out the back of your skull"?', 
-  answerList:["Theon Greyjoy","Shae","Arya Stark", "Anton Yelchin"], 
+  answerList:["Theon Greyjoy","Shae","Arya Stark", "Gregor Clegane"], 
   answer: 2}, //Arya Stark
 
   {question:"Who was the mastermind who plotted to kill King Joffrey?", 
-  answerList:["Little Mix","Littlefinger","Olenna Tyrell", "René Artois"], 
+  answerList:["Sir Mixalot","Littlefinger","Olenna Tyrell", "Melisandre"], 
   answer: 1}, //Littlefinger
 
   {question:'Which house’s motto is “Fire and Blood”?', 
-  answerList:["Greyjoy","Martel","Targaryen", "Davro"], 
+  answerList:["Greyjoy","Martel","Targaryen", "Stark"], 
   answer: 2}, //Targaryen
 
   {question:"How are Jon Snow and Daenerys Targaryen related?", 
